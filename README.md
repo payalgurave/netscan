@@ -23,19 +23,20 @@ python netscan.py -o results.json        # save as JSON
 python netscan.py -o results.csv         # save as CSV
 ```
 
-| Option             | Meaning                                         |
+| Option | Meaning |
+|---|---|
 | `-w, --timeout MS` | per-host timeout in milliseconds (default 1000) |
-| `-t, --threads N`  | parallel workers (default 100)                  |
-| `-o, --output FILE`| save results as `.json` or `.csv`               |
-| `--no-resolve`     | skip reverse-DNS lookups                        |
-| `--force`          | allow scans of more than 65,536 addresses       |
-| `--no-banner`      | hide the ASCII banner                           |
+| `-t, --threads N` | parallel workers (default 100) |
+| `-o, --output FILE` | save results as `.json` or `.csv` |
+| `--no-resolve` | skip reverse-DNS lookups |
+| `--force` | allow scans of more than 65,536 addresses |
+| `--no-banner` | hide the ASCII banner |
 
 Optional: `pip install psutil` for accurate subnet-mask detection.
 
 ## Acknowledgements
 
-This project started as a follow-along from a YouTube tutorial:(https://youtu.be/wCS59Jpc1iQ?si=wojup2jdkcRrFP5t). After finishing it, I rewrote and extended the code myself.
+This project started as a follow-along from a YouTube tutorial: (https://youtu.be/wCS59Jpc1iQ?si=wojup2jdkcRrFP5t). After finishing it, I rewrote and extended the code myself.
 
 What I added on my own:
 
